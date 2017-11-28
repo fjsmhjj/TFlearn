@@ -5,3 +5,4 @@ a=tf.constant(10)
 b=tf.constant(32)
 print(sess.run(a+b))
 a=3
+b=4
