@@ -1,9 +1,6 @@
 import tensorflow as tf
 
-sess=tf.Session()
+sess=tf.InteractiveSession()
 a=tf.constant(10)
 b=tf.constant(32)
 print(sess.run(a+b))
-a=3
-b=4
-c=5
